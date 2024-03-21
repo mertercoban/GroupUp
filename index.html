@@ -7,44 +7,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="base-style.css">
-    <link rel="stylesheet" href="feed/style.css">
+    <link rel="stylesheet" href="home.css">
     <title>GroupUp</title>
     <!-- Page Title-->
 </head>
 
 <body>
-<nav class="navbar">
-    <!-- Navigation Bar-->
-    <div class="logo">
-        <a href="/GroupUp/" class="navlink">GroupUp</a>
-        <!-- Website Logo-->
-    </div>
-    <div class="links">
-        <a href="./feed/index.html" class="navlink">Feed</a>
-        <!-- Feed Link-->
-        <a href="./my-groups/index.html" class="navlink">My Groups</a>
-        <!-- My Groups Link-->
-        <a href="./account/index.html" class="navlink">Account</a>
-        <!-- Account Page Link-->
-    </div>
-</nav>
-<div class="posts">
-    <div class="card">
-        <div class="card-header">About App</div>
-        <div class="card-separator"></div>
-        <div class="card-content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nulla tenetur
-            provident vero rerum cumque, hic tempore iure laboriosam vitae error quis culpa qui? Rerum ratione ad
-            mollitia ea quis cumque praesentium nemo voluptate odio iste doloribus itaque, eum ullam aperiam atque!
-            Eius quae molestias tempora voluptate sapiente dolorum modi.
+    <header class="navbar">
+        <!-- Navigation Bar-->
+        <div class="logo">
+            <a href="/" class="navlink">GroupUp</a>
+            <!-- Website Logo-->
         </div>
-    </div>
-    <img src="img/img.jpg" alt="img">
-</div>
-<footer class="footer">
-    <!-- Footer part-->
-    <a> Copyright</a>
-</footer>
+        <div class="links">
+            <a href="./feed/index.html" class="navlink">Feed</a>
+            <!-- Feed Link-->
+            <a href="./my-groups/index.html" class="navlink">My Groups</a>
+            <!-- My Groups Link-->
+            <a href="./account/index.html" class="navlink">Account</a>
+            <!-- Account Page Link-->
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="content-text">
+                <h2 class="content-title">Lorem ipsum dolor sit</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, qui. Temporibus in ut
+                    dicta, blanditiis saepe eos enim sit maxime ipsum doloremque commodi, provident assumenda
+                    eligendi ipsam a magnam exercitationem.</p>
+            </div>
+            <img src="./img/announcement.jpg" width="600">
+        </div>
+        <div class="content">
+            <img src="/img/student.png" width="600">
+            <div class="content-text">
+                <h2 class="content-title">Lorem ipsum dolor sit</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, qui. Temporibus in ut
+                    dicta, blanditiis saepe eos enim sit maxime ipsum doloremque commodi, provident assumenda
+                    eligendi ipsam a magnam exercitationem.</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-text">
+                <h2 class="content-title">Lorem ipsum dolor sit</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, qui. Temporibus in ut
+                    dicta, blanditiis saepe eos enim sit maxime ipsum doloremque commodi, provident assumenda
+                    eligendi ipsam a magnam exercitationem.</p>
+            </div>
+            <img src="/img/stats.png" width="600">
+        </div>
+    </main>
+
+    <hr class="separator">
+    <footer class="footer" id="footer">
+        <!-- Footer part-->
+        <div class="footer-left">
+            <a href="#footer" class="transition-colors hover:text-blue-400">Privacy</a>
+            <a href="#footer" class="transition-colors hover:text-blue-400">Terms</a>
+            <a href="#footer" class="transition-colors hover:text-blue-400">Cookie Preferences</a>
+        </div>
+        <div class="footer-right">&copy; 2024 GroupUp. All rights reserved.</div>
+    </footer>
 
 </body>
 

@@ -1,0 +1,25 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field input {
+    width: 288px;
+    height: 48px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#save-btn {
+    width: 100%;
+    border: 1px;
+    height: 48px;
+    border-radius: 8px;
+}

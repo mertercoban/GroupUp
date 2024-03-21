@@ -1,5 +1,6 @@
 .posts {
     margin: 4px auto;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;

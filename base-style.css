@@ -1,7 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    background-color: #eeeef0;
+    background-color: white;
 }
 
 ::-webkit-scrollbar {
@@ -9,41 +9,51 @@ body {
 }
 
 .navbar {
-    height: 48px;
-    background-color: #55868c;
+    height: 80px;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 10%;
     position: sticky;
     top: 0;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 20px;
 }
 
 .logo {
     font-size: 28px;
     font-weight: bold;
-    color: white;
 }
 
 .navlink {
     all: unset;
     margin: auto 8px;
-    color: white;
 }
 
 .navlink:hover {
     cursor: pointer;
 }
+
+.separator {
+    width: 70%;
+    color: rgba(0, 0, 0, 0.2);
+}
+
 .footer {
-    height: 48px;
-    background-color: #55868c;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
-    position: fixed;
-    bottom: 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #666;
 }
+
+.footer-left {
+    display: flex;
+    gap: 16px;
+}
+
 .footer a {
-    color: white;
+    color: inherit;
 }

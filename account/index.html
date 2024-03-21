@@ -8,30 +8,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../base-style.css">
+    <link rel="stylesheet" href="account.css">
     <title>GroupUp</title>
     <!-- Page Title-->
 </head>
 
 <body>
-<nav class="navbar">
-    <!-- Navigation Bar-->
-    <div class="logo">
-        <a href="../index.html" class="navlink">GroupUp</a>
-        <!-- Website Logo-->
+    <nav class="navbar">
+        <!-- Navigation Bar-->
+        <div class="logo">
+            <a href="../index.html" class="navlink">GroupUp</a>
+            <!-- Website Logo-->
+        </div>
+        <div class="links">
+            <a href="../feed/index.html" class="navlink">Feed</a>
+            <!-- Feed Link-->
+            <a href="../my-groups/index.html" class="navlink">My Groups</a>
+            <!-- My Groups Link-->
+            <a href="../account/index.html" class="navlink">Account</a>
+            <!-- Account Page Link-->
+        </div>
+    </nav>
+
+    <div class="profile">
+        <form>
+            <h2>Update Your Profile</h2>
+            <div class="field">
+                <label for="name">Name</label>
+                <input id="name" type="text" />
+            </div>
+            <div class="field">
+                <label for="surname">Surname</label>
+                <input id="surname" type="text" />
+            </div>
+            <div class="field">
+                <label for="email">Email</label>
+                <input id="email" type="email" />
+            </div>
+            <div class="field">
+                <label for="bday">Birthday</label>
+                <input id="bday" type="date" />
+            </div>
+            <button id="save-btn" type="button">Save</button>
+        </form>
     </div>
-    <div class="links">
-        <a href="../feed/index.html" class="navlink">Feed</a>
-        <!-- Feed Link-->
-        <a href="../my-groups/index.html" class="navlink">My Groups</a>
-        <!-- My Groups Link-->
-        <a href="../account/index.html" class="navlink">Account</a>
-        <!-- Account Page Link-->
-    </div>
-</nav>
-<footer class="footer">
-    <!-- Footer part-->
-    <a> Copyright</a>
-</footer>
 
 </body>
 
