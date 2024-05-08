@@ -1,0 +1,47 @@
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 690px;
+    margin: auto;
+    padding: 32px;
+    gap: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
+}
+
+#firstname, #lastname, #email {
+    height: 32px;
+    padding-left: 8px;
+    font-size: large;
+}
+
+#contact-form textarea {
+    padding: 8px;
+    font-size: large;
+}
+
+#send-btn {
+    all: unset;
+    text-align: center;
+    height: 48px;
+    background-color: #0288D1;
+    color: white;
+    font-weight: 600;
+    user-select: none;
+}
+
+#send-btn:hover {
+    background-color: #00a6ff;
+    cursor: pointer;
+}
+
+#send-btn:active {
+    background-color: #41bafb;
+    cursor: pointer;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
