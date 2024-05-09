@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../base-style.css">
     <link rel="stylesheet" href="style.css">
+    <script src="../jquery-ui-1.13.3/external/jquery/jquery.js"></script>
+    <script src="../jquery-ui-1.13.3/jquery-ui.js"></script>
+    <script src="./newMessage.js"></script>
     <title>GroupUp | Feed</title>
     <!-- Page Title-->
 </head>
@@ -29,7 +32,14 @@
         </div>
     </header>
 
-    <main class="posts">
+    <main class="posts" id="posts">
+        <div class="card" id="new">
+            <div class="card-header">Dr. Erol Bey on CENG311</div>
+            <div class="card-separator"></div>
+            <div class="card-content">
+                Tomorrow's class is cancelled
+            </div>
+        </div>
         <div class="card">
             <div class="card-header">Name Surname on Group#1</div>
             <div class="card-separator"></div>
@@ -81,6 +91,7 @@
                 Eius quae molestias tempora voluptate sapiente dolorum modi.
             </div>
         </div>
+        <a id="notification">New message</a>
     </main><br><br><br>
 </body>
 

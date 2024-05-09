@@ -35,3 +35,25 @@
 .card-content {
     color: black;
 }
+
+#new {
+    display: none;
+}
+
+#notification {
+    user-select: none;
+    all: unset;
+    display: none;
+    background-color: rgb(128, 173, 240);
+    font-size: large;
+    padding: 12px 32px;
+    border-radius: 24px;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+}
+
+#notification:hover {
+    background-color: rgb(75, 124, 197);
+    cursor: pointer;
+}
