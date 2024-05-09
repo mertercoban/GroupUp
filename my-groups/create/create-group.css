@@ -17,3 +17,9 @@ form{
     border-radius: 8px;
     border: solid 1px;
 }
+
+@media (max-width: 500px) {
+    form {
+        margin-left: 10%;
+    }
+}
