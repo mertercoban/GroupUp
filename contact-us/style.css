@@ -23,19 +23,20 @@
     all: unset;
     text-align: center;
     height: 48px;
-    background-color: #0288D1;
+    background-color: #aaa;
     color: white;
     font-weight: 600;
     user-select: none;
+    border-radius: 16px;
 }
 
 #send-btn:hover {
-    background-color: #00a6ff;
+    background-color: rgba(170, 170, 170, 0.76);
     cursor: pointer;
 }
 
 #send-btn:active {
-    background-color: #41bafb;
+    background-color: #aaa;
     cursor: pointer;
 }
 
@@ -44,4 +45,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+#firstname, #lastname, #message, #email{
+    border-radius: 8px;
 }

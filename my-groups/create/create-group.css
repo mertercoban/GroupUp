@@ -1,3 +1,19 @@
 form{
     margin-left: 40%;
+    align-items: center;
+}
+
+.field input {
+    width: 288px;
+    height: 48px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#join {
+    margin-top: 2%;
+    width: 25%;
+    height: 48px;
+    border-radius: 8px;
+    border: solid 1px;
 }
