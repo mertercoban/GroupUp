@@ -1,4 +1,34 @@
-#join {
+main {
+    margin: auto;
+    max-width: 1024px;
+}
+
+.recommendations {
+    padding: 8px;
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.recommended-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    min-width: 168px;
+    border-radius: 12px;
+    padding: 16px;
+    background-color: #ddd;
+    border: solid #aaa 3px;
+}
+
+.recommended-title {
+    font-size: 24px;
+    color: black;
+}
+
+.recommended-join {
     background-color: #aaa;
     border: solid #aaa 3px;
     border-radius: 15px;
@@ -12,49 +42,31 @@
     height: 70px;
 }
 
-#create {
-    all: unset;
-    background-color: #ddd;
-    border: solid #aaa 3px;
-    border-radius: 12px;
-    color: #aaa;
-    padding: 20px 24px;
-    text-align: center;
-    font-size: 32px;
+.joined-groups {
+    border: 1px solid #ccc;
+    margin-bottom: 32px;
 }
 
-.title {
-    font-size: 32px;
-    color: black;
+.joined-groups .joined-group:nth-child(even) {
+    background-color: #eee;
 }
 
-.groups {
-    margin-top: 5%;
-    margin-left: 27.5%;
-    margin-right: 25%;
-    max-width: 50%;
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    flex-wrap: wrap;
+.joined-group {
+    background-color: white;
+    padding: 8px;
 }
 
-.group{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 32px;
-    min-width: 168px;
-    border-radius: 12px;
-    padding: 16px;
-    background-color: #ddd;
-    border: solid #aaa 3px;
+.joined-group:hover,
+.joined-groups .joined-group:hover:nth-child(even) {
+    background-color: #ccc;
 }
 
-.create {
-    margin-top: 1%;
-    margin-left: 47.5%;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+.joined-title {
+    font-weight: 600;
+    font-size: larger;
+    margin-bottom: 4px;
+}
+
+.joined-message {
+    font-size: medium;
 }
