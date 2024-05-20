@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../base-style.css">
+    <link rel="stylesheet" href="../my-groups/create/create-group.css">
     <link rel="stylesheet" href="login.css">
     <title>GroupUp | Login</title>
     <!-- Page Title-->
@@ -20,18 +21,43 @@
         <!-- Website Logo-->
     </div>
 </nav>
-    <div class="login">
-        <h4 class="login-text">Log In</h4>
-            <input placeholder="Username"><br><br>
-            <input placeholder="Password">
 
-            <a href="../index.html"><button id="btn-login">Log In</button></a>
-            <button id="btn-forgot">Forgot My Password!</button>
-    </div>
-<footer class="footer">
+<form id="form">
+    <h2>Log In</h2>
+    <table>
+        <tr class="field">
+            <td>
+                <input type="text" placeholder="Username" name="" size="40" required />
+            </td>
+        </tr>
+        <tr class="field">
+            <td>
+                <input type="text" placeholder="Password" name="" size="40" required />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <a href="../index.html" id="btn">Log In</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <a href="../signup/index.html" id="btn" onclick="">Sign Up</a>
+            </td>
+        </tr>
+    </table>
+</form>
+
+<hr class="separator">
+<footer class="footer" id="footer">
     <!-- Footer part-->
-    <a> Copyright</a>
+    <div class="footer-left">
+        <a href="#footer" class="transition-colors hover:text-blue-400">Privacy</a>
+        <a href="#footer" class="transition-colors hover:text-blue-400">Terms</a>
+        <a href="#footer" class="transition-colors hover:text-blue-400">Cookie Preferences</a>
+        <a href="./contact-us" class="transition-colors hover:text-blue-400">Contact us</a>
+    </div>
+    <div class="footer-right">&copy; 2024 GroupUp. All rights reserved.</div>
 </footer>
 </body>
-
 </html>

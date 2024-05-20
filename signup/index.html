@@ -32,70 +32,77 @@
 <form id="form">
     <h2>Sign Up Form</h2>
     <table>
-        <tr>
+        <tr class="field">
             <td>Name *</td>
             <td>
-                <input type="text" name="" size="40" required/>
+                <input type="text" name="" size="40" required />
             </td>
         </tr>
-        <tr>
+        <tr class="field">
             <td>Surname *</td>
             <td>
-                <input type="text" name="" size="40" required/>
+                <input type="text" name="" size="40" required />
             </td>
         </tr>
-        <tr>
+        <tr class="field">
             <td>Mail *</td>
             <td>
-                <input type="email" name="" size="40" required/>
+                <input type="email" name="" size="40" required />
             </td>
         </tr>
-        <tr>
+        <tr class="field">
             <td>Password *</td>
             <td>
-                <input type="password" name="" size="40" required/>
+                <input type="password" name="" size="40" required />
             </td>
         </tr>
-        <tr>
+        <tr class="field">
             <td>Password (Again) *</td>
             <td>
-                <input type="password" name="" size="40" required/>
+                <input type="password" name="" size="40" required />
             </td>
         </tr>
-        <tr>
+        <tr class="field">
             <td>Tel *</td>
             <td>
-                <input type="tel" name="" placeholder="(___)(_______)" size="40" required/>
+                <input type="tel" name="" placeholder="(___)(_______)" size="40" required />
             </td>
         </tr>
         <tr>
             <td>Gender *</td>
             <td>
-                <input type="radio" name="gender"/> MALE
-                <input type="radio" name="gender"/> FEMALE
+                <input type="radio" name="gender" /> MALE
+                <input type="radio" name="gender" /> FEMALE
             </td>
         </tr>
-        <tr>
+        <tr class="field">
             <td>Birth *</td>
             <td>
-                <input type="date" required/>
+                <input type="date" required />
             </td>
         </tr>
         <tr>
             <td colspan="2">
-                <input type="checkbox" id=""/> I agree to the Terms of Use of the GroupUp.
+                <input type="checkbox" id="" /> I agree to the Terms of Use of the GroupUp.
             </td>
         </tr>
         <tr>
             <td colspan="2">
-                <button id="join">Sign Up</button>
+                <a href="../my-groups/join/index2.html" id="join">Sign Up</a>
             </td>
         </tr>
     </table>
 </form>
-<footer class="footer">
+<hr class="separator">
+<footer class="footer" id="footer">
     <!-- Footer part-->
-    <a> Copyright</a>
+    <div class="footer-left">
+        <a href="#footer" class="transition-colors hover:text-blue-400">Privacy</a>
+        <a href="#footer" class="transition-colors hover:text-blue-400">Terms</a>
+        <a href="#footer" class="transition-colors hover:text-blue-400">Cookie Preferences</a>
+        <a href="./contact-us" class="transition-colors hover:text-blue-400">Contact us</a>
+    </div>
+    <div class="footer-right">&copy; 2024 GroupUp. All rights reserved.</div>
 </footer>
 </body>
 

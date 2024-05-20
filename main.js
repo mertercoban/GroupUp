@@ -7,7 +7,7 @@ $(document).ready(function () {
         controls: false,
         minSlides: 1,
         maxSlides: 1,
-        slideWidth: 750,
+        slideWidth: 1500,
         marginLeft: 10,
         randomStart: true,
     });
