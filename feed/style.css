@@ -19,9 +19,19 @@
 
 .card-header {
     color: black;
+    display: flex;
     font-weight: 700;
     font-family: "Roboto Slab", "Times New Roman", serif;
-    margin-left: 4%;
+}
+
+.card-header img {
+    border-radius: 50%;
+    margin-right: 16px;
+    border: 1px solid #333;
+}
+
+.card-header div {
+    margin: auto 0;
 }
 
 .card-separator {

@@ -1,0 +1,144 @@
+{
+    "posts": [
+        {
+            "userId": 0,
+            "gender": "female",
+            "name": "Alice Johnson",
+            "groupName": "Data Science Club",
+            "message": "Meeting this Friday at 5 PM in Room 301. Don't forget to bring your laptops!"
+        },
+        {
+            "userId": 1,
+            "name": "Bob Smith",
+            "gender": "male",
+            "groupName": "Study Group A",
+            "message": "Reminder: Our next study session is on Monday at 10 AM. Let's focus on the upcoming calculus exam."
+        },
+        {
+            "userId": 0,
+            "name": "Alice Johnson",
+            "gender": "female",
+            "groupName": "Study Group A",
+            "message": "Can someone help me with the calculus homework? I'm stuck on question 3."
+        },
+        {
+            "userId": 2,
+            "name": "Charlie Brown",
+            "gender": "male",
+            "groupName": "Project Team X",
+            "message": "Please submit your part of the project report by tonight. We need to compile everything by tomorrow."
+        },
+        {
+            "userId": 3,
+            "name": "Daisy Miller",
+            "gender": "female",
+            "groupName": "Book Club",
+            "message": "Next meeting is on Thursday at 6 PM. We'll be discussing 'To Kill a Mockingbird'."
+        },
+        {
+            "userId": 4,
+            "name": "Ethan Clark",
+            "gender": "male",
+            "groupName": "Software Engineering Group",
+            "message": "Code review session scheduled for Wednesday at 3 PM. Make sure your code is pushed to the repository."
+        },
+        {
+            "userId": 5,
+            "name": "Fiona Davis",
+            "gender": "female",
+            "groupName": "Research Group",
+            "message": "Please send your latest research findings by end of the week. We need to prepare for the conference."
+        },
+        {
+            "userId": 0,
+            "name": "Alice Johnson",
+            "gender": "female",
+            "groupName": "Software Engineering Group",
+            "message": "I've pushed my code for the new feature. Please review it before the meeting."
+        },
+        {
+            "userId": 6,
+            "name": "George Lee",
+            "gender": "male",
+            "groupName": "Entrepreneurship Club",
+            "message": "Guest speaker event on Tuesday at 2 PM. Don't miss the chance to learn from successful entrepreneurs."
+        },
+        {
+            "userId": 7,
+            "name": "Hannah Kim",
+            "gender": "female",
+            "groupName": "Marketing Team",
+            "message": "Marketing strategy meeting on Friday at 4 PM. Let's brainstorm new ideas for our next campaign."
+        },
+        {
+            "userId": 8,
+            "name": "Ian Martinez",
+            "gender": "male",
+            "groupName": "Volunteer Group",
+            "message": "Community clean-up event this Saturday at 9 AM. Meet at the park entrance."
+        },
+        {
+            "userId": 9,
+            "name": "Julia Brown",
+            "gender": "female",
+            "groupName": "Art Club",
+            "message": "Art workshop next Wednesday at 1 PM. Bring your own art supplies."
+        },
+        {
+            "userId": 6,
+            "name": "George Lee",
+            "gender": "male",
+            "groupName": "Research Group",
+            "message": "Our paper has been accepted! Celebration meeting at 6 PM tonight."
+        },
+        {
+            "userId": 2,
+            "name": "Charlie Brown",
+            "gender": "male",
+            "groupName": "Data Science Club",
+            "message": "Anyone interested in participating in the data hackathon next month? Let me know."
+        },
+        {
+            "userId": 3,
+            "name": "Daisy Miller",
+            "gender": "female",
+            "groupName": "Volunteer Group",
+            "message": "We need more volunteers for the food drive next Sunday. Please sign up if you can help."
+        },
+        {
+            "userId": 4,
+            "name": "Ethan Clark",
+            "gender": "male",
+            "groupName": "Entrepreneurship Club",
+            "message": "Looking for partners to join my new startup idea. Ping me if interested."
+        },
+        {
+            "userId": 5,
+            "name": "Fiona Davis",
+            "gender": "female",
+            "groupName": "Book Club",
+            "message": "Does anyone have a spare copy of '1984' by George Orwell? I forgot mine."
+        },
+        {
+            "userId": 8,
+            "name": "Ian Martinez",
+            "gender": "male",
+            "groupName": "Art Club",
+            "message": "We are planning an art exhibition next month. Submit your artwork by the 15th."
+        },
+        {
+            "userId": 9,
+            "name": "Julia Brown",
+            "gender": "female",
+            "groupName": "Marketing Team",
+            "message": "Check out the latest marketing trends in the shared document. Let's discuss in our next meeting."
+        },
+        {
+            "userId": 7,
+            "name": "Hannah Kim",
+            "gender": "female",
+            "groupName": "Project Team X",
+            "message": "Final project deadline is approaching. Let's meet tomorrow to finalize everything."
+        }
+    ]
+}
