@@ -1,21 +1,23 @@
 .navbar {
     z-index: 1;
 }
+
 .content-title {
     font-size: 36px;
     font-weight: 800;
     margin-bottom: 32px;
 }
+
 .content {
     padding-top: 48px;
     padding-bottom: 48px;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    max-width: 1366px;
+    max-width: 1000px;
     align-items: center;
     gap: 64px;
-    width: 100%;
-    margin-left: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content-image-shadow {
@@ -32,12 +34,42 @@
 
 img {
     width: 300px;
-    margin-top: 10%;
-    margin-left: 25%
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .content-text {
-    margin: 0 200px 100px 25px; /* t b r l */
-    width: 750px;
-    height: 500px;
+    margin: 0 200px auto auto; /* t b r l */
+    width: 1000px;
+    height: 450px;
+    text-align: center;
+}
+@media (max-width: 1250px) {
+    .content-text p{
+        font-size: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .content{
+        margin-right: auto;
+        margin-left: 30%;
+        width: 100%;
+    }
+    .content-text{
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+    p{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .content-title {
+        font-size: 24px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
 }

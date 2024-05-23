@@ -58,8 +58,14 @@ body {
     color: inherit;
 }
 
-h1{
+h1 {
     text-align: center;
     margin-bottom: 50px;
     margin-top: 150px;
+}
+
+@media (max-width: 500px) {
+    .footer-left, .footer-right {
+        font-size: 12px;
+    }
 }

@@ -1,8 +1,6 @@
-form{
-    margin-left: 40%;
+#form {
     align-items: center;
-    margin-bottom: 150px;
-    margin-top: 50px;
+    margin: 50px auto 150px;
 }
 
 .field input {
@@ -13,25 +11,39 @@ form{
 }
 
 #join {
-        margin-top: 2%;
-        width: 50%;
-        height: 36px;
-        border-radius: 8px;
-        border: solid 1px;
-        align-items: center;
-        display: grid;
-        text-align: center;
-        padding: 6px 6px;
-        background-color: #eeeeef;
+    margin-top: 2%;
+    width: 50%;
+    height: 36px;
+    border-radius: 8px;
+    border: solid 1px;
+    align-items: center;
+    display: grid;
+    text-align: center;
+    padding: 6px 6px;
+    background-color: #eeeeef;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-a, a:hover, a:visited{
+#singup {
+    margin-top: 2%;
+    width: 50%;
+    height: 36px;
+    border-radius: 8px;
+    border: solid 1px;
+    align-items: center;
+    display: grid;
+    text-align: center;
+    padding: 6px 6px;
+    background-color: #eeeeef;
+}
+
+a, a:hover, a:visited {
     text-decoration: none;
     color: black;
 }
 
-@media (max-width: 500px) {
-    form {
-        margin-left: 10%;
-    }
+table {
+    margin-left: auto;
+    margin-right: auto;
 }

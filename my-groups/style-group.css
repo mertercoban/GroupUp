@@ -70,3 +70,9 @@ main {
 .joined-message {
     font-size: medium;
 }
+@media (max-width: 500px) {
+    .recommendations-title, .recommended-join, .recommended-tile{
+        font-size: 12px;
+        width: 90%;
+    }
+}

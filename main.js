@@ -8,7 +8,6 @@ $(document).ready(function () {
         minSlides: 1,
         maxSlides: 1,
         slideWidth: 1500,
-        marginLeft: 10,
         randomStart: true,
     });
     console.log("qweqwdwa");

@@ -1,27 +1,24 @@
-a, a:hover, a:visited{
+a, a:hover, a:visited {
     text-decoration: none;
     color: black;
 }
 
-h2{
-    margin-left: 12%;
-}
-
-#btn{
-    margin-left: 25%;
-    margin-top: 2%;
-    width: 50%;
-    height: 36px;
-    border-radius: 8px;
-    border: solid 1px;
-    align-items: center;
-    display: grid;
-    text-align: center;
-    padding: 6px 6px;
-    background-color: #eeeeef;
-}
-
-#form{
+h2 {
     margin-top: 100px;
+    text-align: center;
+}
+
+#form {
+    margin-top: 35px;
     margin-bottom: 150px;
+}
+
+@media (max-width: 500px) {
+    h2 {
+        text-align: center;
+    }
+    table {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
