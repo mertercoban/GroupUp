@@ -43,7 +43,10 @@ a, a:hover, a:visited {
     color: black;
 }
 
-table {
+table{
     margin-left: auto;
     margin-right: auto;
+}
+h2 {
+    text-align: center;
 }
