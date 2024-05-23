@@ -28,6 +28,7 @@ main {
 .recommended-title {
     font-size: 24px;
     color: black;
+    height: 120px;
 }
 
 .recommended-join {
