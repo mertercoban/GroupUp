@@ -1,0 +1,77 @@
+{
+    "joinedGroups": [
+        {
+            "name": "Alice Johnson",
+            "groupName": "Data Science Club",
+            "lastMessage": "Meeting this Friday at 5 PM in Room 301. Don't forget to bring your laptops!"
+        },
+        {
+            "name": "Bob Smith",
+            "groupName": "Study Group A",
+            "lastMessage": "Reminder: Our next study session is on Monday at 10 AM. Let's focus on the upcoming calculus exam."
+        },
+        {
+            "name": "Charlie Brown",
+            "groupName": "Project Team X",
+            "lastMessage": "Please submit your part of the project report by tonight. We need to compile everything by tomorrow."
+        },
+        {
+            "name": "Daisy Miller",
+            "groupName": "Book Club",
+            "lastMessage": "Next meeting is on Thursday at 6 PM. We'll be discussing 'To Kill a Mockingbird'."
+        },
+        {
+            "name": "Ethan Clark",
+            "groupName": "Software Engineering Group",
+            "lastMessage": "Code review session scheduled for Wednesday at 3 PM. Make sure your code is pushed to the repository."
+        },
+        {
+            "name": "Fiona Davis",
+            "groupName": "Research Group",
+            "lastMessage": "Please send your latest research findings by end of the week. We need to prepare for the conference."
+        },
+        {
+            "name": "George Lee",
+            "groupName": "Entrepreneurship Club",
+            "lastMessage": "Guest speaker event on Tuesday at 2 PM. Don't miss the chance to learn from successful entrepreneurs."
+        },
+        {
+            "name": "Hannah Kim",
+            "groupName": "Marketing Team",
+            "lastMessage": "Marketing strategy meeting on Friday at 4 PM. Let's brainstorm new ideas for our next campaign."
+        },
+        {
+            "name": "Ian Martinez",
+            "groupName": "Volunteer Group",
+            "lastMessage": "Community clean-up event this Saturday at 9 AM. Meet at the park entrance."
+        },
+        {
+            "name": "Julia Brown",
+            "groupName": "Art Club",
+            "lastMessage": "Art workshop next Wednesday at 1 PM. Bring your own art supplies."
+        }
+    ],
+    "recommendedGroups": [
+        {
+            "groupName": "Tech Innovators Network"
+        },
+        {
+            "groupName": "Environmental Awareness Coalition"
+        },
+        {
+            "groupName": "Health and Wellness Club"
+        },
+        {
+            "groupName": "AI and Machine Learning Forum"
+        },
+        {
+            "groupName": "Global Business Leaders"
+        },
+        {
+            "groupName": "Creative Writers Circle"
+        },
+        {
+            "groupName": "Python Developers Hub"
+        }
+    ]
+}

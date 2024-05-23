@@ -26,6 +26,7 @@ main {
 .recommended-title {
     font-size: 24px;
     color: black;
+    height: 120px;
 }
 
 .recommended-join {
@@ -70,8 +71,12 @@ main {
 .joined-message {
     font-size: medium;
 }
+
 @media (max-width: 500px) {
-    .recommendations-title, .recommended-join, .recommended-tile{
+
+    .recommendations-title,
+    .recommended-join,
+    .recommended-tile {
         font-size: 12px;
         width: 90%;
     }
