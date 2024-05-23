@@ -4,7 +4,7 @@ main {
 }
 
 .recommendations {
-    padding: 8px;
+    padding: 24px;
     overflow-y: scroll;
     display: flex;
     align-items: center;
@@ -15,8 +15,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     gap: 32px;
     min-width: 168px;
+    height: 200px;
     border-radius: 12px;
     padding: 16px;
     background-color: #ddd;
@@ -70,8 +72,12 @@ main {
 .joined-message {
     font-size: medium;
 }
+
 @media (max-width: 500px) {
-    .recommendations-title, .recommended-join, .recommended-tile{
+
+    .recommendations-title,
+    .recommended-join,
+    .recommended-tile {
         font-size: 12px;
         width: 90%;
     }
