@@ -1,7 +1,9 @@
 .field {
     display: flex;
-    flex-direction: column;
     margin: 32px auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 390px;
 }
 
 .profile {
@@ -34,4 +36,7 @@
 a, a:hover, a:visited{
     text-decoration: none;
     color: black;
+}
+h2 {
+    text-align: center;
 }
